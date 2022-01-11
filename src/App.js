@@ -4,20 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello Dojo</h1>
+      <ul>
+        <h3>Things to do</h3>
+        <li>learn React</li>
+        <li>walk dog</li>
+        <li>make dinner</li>
+      </ul>
     </div>
   );
 }
